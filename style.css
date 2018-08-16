@@ -1,0 +1,13 @@
+
+ul.menu li {
+  display: inline-block; background-color: white;
+}
+#footer{
+    height:50px;
+    line-height:50px;
+    background:#696969;
+    color:#fff;
+}
+h1 {
+    font-family: 'Slabo 27px', serif; color:#696969;
+}
