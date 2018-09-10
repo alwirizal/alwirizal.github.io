@@ -1,0 +1,12 @@
+TUGAS 5
+
+function unshiftLastString(arr) {
+  var a = arr[0]
+  
+  if(a === 0) {
+    arr.unshift("FOX") 
+  }
+  return arr
+}
+
+console.log(unshiftLastString([0, 1, 2, 3]))

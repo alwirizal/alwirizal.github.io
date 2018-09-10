@@ -1,0 +1,14 @@
+TUGAS 1
+
+function square (number) {
+  return number * number
+}
+
+function pi () {
+  return Math.PI
+}
+
+
+var area = Math.round(pi() * square(7));
+console.log(area); // 154
+

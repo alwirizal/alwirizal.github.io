@@ -1,0 +1,36 @@
+While-loop :
+
+SOAL 4 :
+
+var flag = 5
+var pangkat = 5
+var jumlah = 1;
+
+while(flag > 0) {
+  jumlah *= pangkat
+  flag--
+  console.log(jumlah)
+}
+
+for-loop :
+
+SOAL 5 :
+
+var jumlah = 1
+var pangkat = 6
+for(var flag = 5; flag > 0; flag--) {
+  jumlah *= pangkat
+  console.log(jumlah)
+}
+
+
+for(var deret = 0; deret < 100; deret += 2) {
+  console.log(deret)
+}
+
+console.log('---------------------');
+
+for(var deret = 100; deret > 0; deret -=3) {
+  console.log(deret)
+}
+

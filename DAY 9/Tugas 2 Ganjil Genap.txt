@@ -1,0 +1,14 @@
+function perulangan(minimal, maximal) {
+  var arr = []
+for (var flag = minimal; flag <= maximal; flag++) {
+   if(flag%2==0) {
+    arr.push(flag + "= Genap")
+  } else {
+    arr.push(flag + "= Ganjil")
+  }
+}
+
+  return arr
+}
+
+console.log(perulangan(3,7))

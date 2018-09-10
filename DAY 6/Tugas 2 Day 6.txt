@@ -1,0 +1,21 @@
+//* Longhand 
+
+var angka1 = 5, angka2 = 2, angka3 = 8, angka4 = 9, angka5 = 12, angka6 = 18, angka7 = 131;
+
+if (angka2 % 2 !== 0 && angka2 % 3 !== 0){
+  console.log("SALAH");
+} else if (angka2 % 2 === 0){
+  console.log("HACK");
+} else if (angka2 % 3 === 0) {
+  console.log("FOX");
+} else {
+  console.log("HACKFOX");
+}
+
+//* Shorthand
+
+var angka1 = 5, angka2 = 2, angka3 = 8, angka4 = 9, angka5 = 12, angka6 = 18, angka7 = 131;
+
+var hasil = angka2 % 2 !== 0 && angka2 % 3 !== 0 ? "SALAH" : angka2 % 2 === 0 ? "HACK" : angka2 % 3 === 0 ? "FOX" : "HACFOX";
+console.log(hasil)
+

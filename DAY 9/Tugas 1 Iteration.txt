@@ -1,0 +1,11 @@
+Iteration : 
+
+function iteration(minimal, maximal) {
+  var arr = []
+  for (var flag = minimal; flag <= maximal; flag++) {
+   arr.push(flag)
+  }
+  return arr
+}
+
+console.log(iteration(2,10))

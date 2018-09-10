@@ -1,0 +1,12 @@
+TUGAS 4
+
+function unshiftLastString(arr) {
+  var earlyItems = arr[0]
+  
+  if(typeof earlyItems === "string") {
+    arr.shift() 
+  }
+  return arr
+}
+
+console.log(unshiftLastString(["fox" , 1, 2, 3]))

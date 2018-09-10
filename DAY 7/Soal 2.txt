@@ -1,0 +1,7 @@
+Soal 2 :
+for(var angka = 1; angka < 10; angka++) {
+  if(angka == 7)break;
+  else {
+    console.log(angka)
+  }
+}

@@ -1,0 +1,15 @@
+penumpang 0 = 20km/jam
+penumpang 0 s/d 4
+ pseudocode :
+
+1. IF jumlah penumpang 0
+    DO kecepatan 20km/jam
+    DISPLAY kecepatan 20km/jam
+
+2. IF jumlah penumpang > 2
+    DO kecepatan 20km/jam - 5km/jam
+    DISPLAY kecepatan 15km/jam
+
+3. IF jumlah penumpang 4
+    DO kecepatan 20km/jam - 7km/jam
+    DISPLAY kecepatan 13km/jam

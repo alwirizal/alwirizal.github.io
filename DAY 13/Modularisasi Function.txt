@@ -1,0 +1,79 @@
+Contoh Modularisasi Function:
+
+Contoh 1 :
+
+=CARA 1= 
+
+function removeSpaces (text) {
+  var str = text.split(" ").join("")
+  return str
+}
+
+console.log(removeSpaces("lorem Ipsum dollor sit amet"))
+
+=CARA 2= PAKAI FOR LOOPING 
+
+function removeSpaces (text) {
+    var a = text.split(' ')
+    return a.join('')
+}
+
+console.log(removeSpaces("lorem ipsum dollor sit amet"))
+
+
+
+Contoh 2 :
+
+=CARA 1=
+
+function reverseText (text) {
+   return text.split('').reverse().join('')
+}
+
+console.log(reverseText("lorem Ipsum dollor sit amet"))
+
+
+=CARA 2= PAKAU FOR LOOPING
+
+function reverseText (text) {
+  for(var i = 0; i < text.length; i++) {
+  var a = text.split('').reverse()
+  }
+  return a.join('')
+}
+
+console.log(reverseText("lorem ipsum dollor sit amet"))
+
+
+
+Contoh 3 :
+
+=CARA 1=
+
+function updateVowels (text) {
+  return text
+    .replace(/a/g,"b")
+    .replace(/i/g,"j")
+    .replace(/u/g,"v")
+    .replace(/e/g,"f")
+    .replace(/o/g,"p")
+}
+
+console.log(updateVowels("lorem ipsum dollor sit amet"))
+
+
+=CARA 2= pakai FOOR LOOPING
+
+function updateVowels (text) {
+  for(var i = 0; i < text.length; i++) {
+    var m = text
+    .replace(/a/g, 'b')
+    .replace(/i/g, 'j')
+    .replace(/u/g, 'v')
+    .replace(/e/g, 'f')
+    .replace(/o/g, 'p')
+  }
+  return m
+}
+
+console.log(updateVowels("lorem ipsum dollor sit amet"))

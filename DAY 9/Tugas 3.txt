@@ -1,0 +1,12 @@
+Tugas 3
+
+function popLastString(arr) {
+  var items = arr[arr.length-1]
+  
+  if(typeof items === "string") {
+    arr.pop() 
+  }
+  return arr
+}
+
+console.log(popLastString([1, 2, 3,'halo']))

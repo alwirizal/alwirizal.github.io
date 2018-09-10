@@ -1,0 +1,9 @@
+Tugas 1 :
+
+function perulangan(minimal, maximal) {
+  for (var flag = minimal; flag <= maximal; flag++) {
+    console.log(flag)
+  }
+}
+
+perulangan(1,55)

@@ -1,0 +1,14 @@
+TUGAS 2 :
+
+function perulangan(minimal, maximal) {
+  while(minimal <= maximal) {
+  if(minimal%2==0) {
+    console.log(minimal+" bilangan genap");
+  } else {
+    console.log(minimal+" bilangan ganjil")
+  }
+  minimal++;
+}
+}
+
+perulangan(1,100)

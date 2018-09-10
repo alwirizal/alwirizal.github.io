@@ -1,0 +1,13 @@
+TUGAS 3 :
+
+function pangkat(angkaPertama, angkaKedua) {
+  var eksponen = angkaPertama
+  var jumlah = 1
+  for(var flag = angkaKedua; flag > 0; flag--){
+    jumlah *= eksponen
+  }
+  return jumlah
+}
+
+console.log(pangkat(10,2))
+console.log(pangkat(5,3))

@@ -1,0 +1,18 @@
+Tugas 1
+
+function multiDimensi(x,y) {
+  var arr = []
+  var ml = 1
+ for(var i = 1; i <= x; i++) {
+   var sum = []
+   arr.push(sum)
+   for(var j = 1; j <=y; j++) {
+     sum.push(ml)
+     ml++
+   }
+    }
+  return arr
+}
+console.log(multiDimensi(2,3))
+
+
