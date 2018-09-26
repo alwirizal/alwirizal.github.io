@@ -1,0 +1,19 @@
+function numberIteration(num) {
+ if(num == 0) {
+   return "" + num;
+ }
+    var hasil = "" + num
+   return numberIteration(num-1) + hasil;
+ 
+}
+
+// TEST CASES
+console.log(numberIteration(5)); // '012345'
+console.log(numberIteration(7)); // '01234567'
+console.log(numberIteration(3)); // '0123'
+console.log(numberIteration(1)); // '01'
+console.log(numberIteration(0)); // '0'
+
+
+
+

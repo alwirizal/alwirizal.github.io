@@ -1,1 +1,0 @@
-# alwirizal.github.io

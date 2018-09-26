@@ -1,0 +1,13 @@
+function sortByCharacter (text) {
+  for(var i = 0; i < text.length; i++) {
+    var ml = text.split('').sort()
+  }
+  return ml.join('')
+}
+
+// TEST CASES
+console.log(sortByCharacter('hello')); // 'ehllo'
+console.log(sortByCharacter('truncate')); // 'acenrttu'
+console.log(sortByCharacter('developer')); // 'deeeloprv'
+console.log(sortByCharacter('software')); // 'aeforstw'
+console.log(sortByCharacter('aegis')); // 'aegis'
