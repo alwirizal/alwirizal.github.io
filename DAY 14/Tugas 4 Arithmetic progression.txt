@@ -1,6 +1,6 @@
 function isArithmeticProgression (numbers) {
   var selisih=[];                               
-var benar=0;                                          
+  var benar=0;                                          
   for(var a=0; a<(numbers.length-1); a++){            
     selisih +=numbers[a+1]-numbers[a];                
     if(selisih.length>1&&selisih[a]===selisih[a-1]){  
